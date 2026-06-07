@@ -36,6 +36,8 @@ for _ in range(n):
         print(f"{word[0]}{len(word)-2}{word[-1]}")
     else:
         print(word)
+
+---
  
 ## Problema 2 — Team
  
@@ -52,6 +54,8 @@ Os amigos precisam da quantidade de problemas, mas avaliar se eles sabem ou não
 
 n = int(input())
 print(sum(sum(map(int, input().split())) >= 2 for _ in range(n)))
+
+---
  
 ## Problema 3 — Bit++
  
