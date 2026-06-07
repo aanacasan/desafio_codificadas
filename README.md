@@ -52,7 +52,6 @@ Os amigos precisam da quantidade de problemas, mas avaliar se eles sabem ou não
 
 n = int(input())
 print(sum(sum(map(int, input().split())) >= 2 for _ in range(n)))
----
  
 ## Problema 3 — Bit++
  
